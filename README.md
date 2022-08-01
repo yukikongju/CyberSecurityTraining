@@ -1,25 +1,25 @@
-# Hack the Box Walktrough
+# Cybersecurity Training Ressources
 
-## Hack The Box Academy Modules
+This repository is an agglomeration of the ressources I used to learn 
+cybersecurity. You can find the books I used in `books/` and some of my 
+Hack the box solutions in `htb-academy/`
 
 
-| Module                             | Status      | Difficulty  | Tier   | Tag       | Start Date   | End Date     | Link                                             |
-| -----                              | ----        | -------     | ---    | --------- | ------       | ---          | ---                                              |
-| Getting Started                    |             | Fundamental | Tier 0 | General   |              |              |                                                  |
-| Learning Process                   | Completed   | Fundamental | Tier 0 | General   |              |              |                                                  |
-| Intro to Academy                   | Completed   | Fundamental | Tier 0 | General   |              |              |                                                  |
-| Introduction to Networking         | In Progress | Fundamental | Tier 0 | General   | Jun 04, 2022 |              |                                                  |
-| Linux Fundamentals                 | Completed   | Fundamental | Tier 0 | General   | Jun 04, 2022 | Jun 04, 2022 |                                                  |
-| Web Requests                       | Completed   | Fundamental | Tier 0 | General   | Jun 04, 2022 | Jun 04, 2022 | [Link](htb-academy/web-requests.md)              |
-| Introduction to Web Applications   | Completed   | Fundamental | Tier 0 | General   | Jun 04, 2022 | Jun 04, 2022 | [Link](htb-academy/intro-to-web-applications.md) |
-| Windows Fundamentals               |             | Fundamental | Tier 0 |           |              |              |                                                  |
-| Introduction to Active Directories |             | Fundamental | Tier 0 |           |              |              |                                                  |
-| JavaScript Deobfuscation           |             | Easy        | Tier 0 |           |              |              |                                                  |
-| Vulnerability Assessment           |             | Easy        | Tier 0 |           |              |              |                                                  |
-| Using the Metasploit Framework     |             | Easy        | Tier 0 |           |              |              |                                                  |
-|                                    |             |             |        |           |              |              |                                                  |
-|                                    |             |             |        |           |              |              |                                                  |
 
-## Hack The Box Modules
+## Where to go next (roadmaps and more)
+
+- [ ] [SANS Cybersecurity Skills Roadmap](https://www.sans.org/cyber-security-skills-roadmap/)
+- [ ] [Certification Roadmap by Paul Jerimy](https://pauljerimy.com/security-certification-roadmap/)
+
+
+## Ressources
+
+- [ ] [Pen Testing Tools Ressources](https://github.com/sundowndev/hacker-roadmap)
+- [ ] [Cybersecurity Career Paths and Certifications](https://github.com/rezaduty/cybersecurity-career-path)
+
+## Miscellaneous
+
+- [ ] [How HTTPS Works](https://howhttps.works/)
+- [X] [Words of motivation by s0md3v](https://github.com/s0md3v/be-a-hacker#i-think-i-know-nothing-i-have-no-skills)
 
 
