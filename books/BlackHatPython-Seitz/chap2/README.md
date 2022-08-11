@@ -3,12 +3,12 @@
 
 ## Contents
 
-- [o] Creating client
+- [o] Creating client-server
     - [X] TCP Client
-    - [ ] UDP Client
-- [ ] TCP Server
+    - [X] UDP Client
+    - [ ] TCP Server 
 - [ ] Netcat
-- [ ] Build a TCP Proxy
+- [ ] TCP Proxy
 - [ ] SSH with Paramiko
 - [ ] SSH Tuneling
 

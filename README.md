@@ -1,8 +1,9 @@
 # Cybersecurity Training Ressources
 
 This repository is an agglomeration of the ressources I used to learn 
-cybersecurity. You can find the books I used in `books/` and some of my 
-Hack the box solutions in `htb-academy/`
+cybersecurity. You can find the books I used in `books/`,  some of my 
+Hack the box solutions in `htb-academy/` and some of the papers I have read 
+in `papers/`
 
 
 
@@ -14,8 +15,19 @@ Hack the box solutions in `htb-academy/`
 
 ## Ressources
 
+**Tools**
 - [ ] [Pen Testing Tools Ressources](https://github.com/sundowndev/hacker-roadmap)
+
+
+**Career Paths**
 - [ ] [Cybersecurity Career Paths and Certifications](https://github.com/rezaduty/cybersecurity-career-path)
+
+**CTF**
+- [Hack the Box](https://www.hackthebox.com/)
+
+**Learning**
+- [pwn.college](https://pwn.college/)
+
 
 ## Miscellaneous
 
