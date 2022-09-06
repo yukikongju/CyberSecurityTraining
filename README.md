@@ -24,6 +24,7 @@ in `papers/`
 
 **CTF**
 - [Hack the Box](https://www.hackthebox.com/)
+- [Crypto-Cat CTF](https://github.com/Crypto-Cat/CTF)
 
 **Learning**
 - [pwn.college](https://pwn.college/)

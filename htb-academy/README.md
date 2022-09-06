@@ -1,5 +1,9 @@
 # Hack the Box Walktrough
 
+**How to connect to VPN**
+
+`sudo openvpn academy.ovpn`
+
 ## Hack The Box Academy Modules
 
 
