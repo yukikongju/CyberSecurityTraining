@@ -4,6 +4,10 @@
 
 `sudo openvpn pack.ovpn`
 
+If you get `Options error: Unrecognized option or missing or extra parameter(s) in starting_point_yukikongju.ovpn:12: data-ciphers-fallback (2.4.7)` error, comment 
+out `data-ciphers` and `fallback` line inside `*.ovpn` as mentionned [here](https://forums.openvpn.net/viewtopic.php?f=6&t=31516)
+
+
 
 **How to connect to the Machine**
 
@@ -23,9 +27,9 @@
 
 - [X] Appointment
 - [X] Sequel
-- [ ] Crocodile
-- [ ] Responder
-- [ ] Three
+- [X] Crocodile
+- [.] Responder
+- [.] Three
 
 **Tier 2**
 
