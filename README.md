@@ -22,17 +22,29 @@ in `papers/`
 **Career Paths**
 - [ ] [Cybersecurity Career Paths and Certifications](https://github.com/rezaduty/cybersecurity-career-path)
 
+**Learning Paths**
+- [ ] [Open Security Training - Learning Paths](https://opensecuritytraining.info/Learning%20Paths.html)
+
+
 **CTF**
+- [CTF Time](https://ctftime.org/ctfs)
 - [Hack the Box](https://www.hackthebox.com/)
 - [Crypto-Cat CTF](https://github.com/Crypto-Cat/CTF)
 - [Root Me](https://www.root-me.org/)
 - [Over the Wire](https://overthewire.org/wargames)
 - [Pwnable.tw](https://pwnable.tw/)
 - [Try Hack Me](https://tryhackme.com/room/ecolecybertraining)
+- [Smash the Stack - Wargame](http://www.smashthestack.org/wargames.html)
 
 **Learning**
 - [pwn.college](https://pwn.college/)
+- [X] [PicoCTF Learning](https://picoctf.org/resources.html)
+- [PicoCTF Primer](https://primer.picoctf.org/)
 - [Roppers Academy](https://www.roppers.org/collections)
+- [CTF Field Guide](https://trailofbits.github.io/ctf/)
+- [CTF 101](https://ctf101.org/)
+- [Open Source Training 2](https://p.ost2.fyi/)
+- [Microcorruption - Binary](https://microcorruption.com/)
 
 
 ## Miscellaneous
