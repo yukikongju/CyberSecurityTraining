@@ -2,6 +2,11 @@
 
 Le mot de passe est le flag du niveau précédent
 
+## What we learned
+
+- [X] use the command `find` to search for executables files, files owned by 
+      specific user
+
 
 ### Level 0 -> Level 1
 
@@ -99,71 +104,4 @@ find: ‘./bandit27-git’: Permission denied
 ```
 
 Flag: `z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S`
-
-### Level 7 -> Level 8
-
-Goal: Use grep to find stuffs in file
-
-```
->>> ssh bandit7@bandit.labs.overthewire.org -p 2220
->>> cat data.txt | grep millionth
-millionth	TESKZC0XvTetK0S9xNwm25STk5iWrBvP
-
-```
-
-Flag: `TESKZC0XvTetK0S9xNwm25STk5iWrBvP`
-
-
-### Level 8 -> Level 9
-
-
-Goal: Using sort and uniq to find unique line
-
-```
->>> ssh bandit8@bandit.labs.overthewire.org -p 2220
->>> cat data.txt | sort | uniq -c
-
-10 dhoAlBlnhEz2xYyJdfI5ysm0JpyqDkQV
-10 distOgdG7obAspnU4rE1HsWJ2upkf6BK
-10 DItvEOrpT0pRGL1bFdRhoQkwX8SdlMYV
-1 EN632PlfYiZbn3PhVK3XOGSlNInNE00t
-10 Eor03gLDc3awKULF84XCnD8xgRg6X9S3
-10 F5wqfqjZqVuufXkocZswBcRuVJfMZD0t
-
-```
-
-Flag: `EN632PlfYiZbn3PhVK3XOGSlNInNE00t`
-
-
-### Level 9 -> Level 10
-
-
-Goal: 
-
-```
->>> ssh bandit9@bandit.labs.overthewire.org -p 2220
->>> 
-
-```
-
-Flag: ``
-
-
----------------------------------------------------------------
-
-### Level 10 -> Level 11
-
-
-Goal: 
-
-```
->>> ssh bandit10@bandit.labs.overthewire.org -p 2220
->>> 
-
-```
-
-Flag: ``
-
-
-
 
