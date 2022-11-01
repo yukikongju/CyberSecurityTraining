@@ -3,4 +3,4 @@
 
 ## Walkthrough
 
-- [MayaDevBe](https://mayadevbe.me/posts/overthewire/bandit/level7/)
+- [MayaDevBe - Bandit Walkthrough](https://mayadevbe.me/posts/overthewire/bandit/overview/)
