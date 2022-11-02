@@ -21,9 +21,9 @@
 - [X] Level 17 -> Level 18:
 - [X] Level 18 -> Level 19:
 - [X] Level 19 -> Level 20:
-- [ ] Level 20 -> Level 21:
-- [ ] Level 21 -> Level 22:
-- [ ] Level 22 -> Level 23:
+- [X] Level 20 -> Level 21:
+- [X] Level 21 -> Level 22:
+- [X] Level 22 -> Level 23:
 - [ ] Level 23 -> Level 24:
 - [ ] Level 24 -> Level 25:
 - [ ] Level 25 -> Level 26:
