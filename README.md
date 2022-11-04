@@ -34,7 +34,8 @@ in `papers/`
 - [Over the Wire](https://overthewire.org/wargames)
 - [Pwnable.tw](https://pwnable.tw/)
 - [Try Hack Me](https://tryhackme.com/room/ecolecybertraining)
-- [Smash the Stack - Wargame](http://www.smashthestack.org/wargames.html)
+- [Smash the Stack](http://www.smashthestack.org/)
+- [Exploit-Exercices Mirror](https://www.vulnhub.com/series/exploit-exercises,11/)
 
 **Learning**
 - [pwn.college](https://pwn.college/)
