@@ -1,5 +1,6 @@
 # Leviathan
 
+Getting familiar with `ltrace` and `ln -s` for symbolic links
 
 - [X] Level 0:
 - [X] Level 0 -> Level 1:
