@@ -36,6 +36,7 @@ in `papers/`
 - [Try Hack Me](https://tryhackme.com/room/ecolecybertraining)
 - [Smash the Stack](http://www.smashthestack.org/)
 - [Exploit-Exercices Mirror](https://www.vulnhub.com/series/exploit-exercises,11/)
+- [Pwnable.kr](http://pwnable.kr/play.php)
 
 **Learning**
 - [pwn.college](https://pwn.college/)
@@ -46,6 +47,10 @@ in `papers/`
 - [CTF 101](https://ctf101.org/)
 - [Open Source Training 2](https://p.ost2.fyi/)
 - [Microcorruption - Binary](https://microcorruption.com/)
+- [o] [0xinfection - Reverse Engineering](https://0xinfection.github.io/reversing/)
+- [ ] [Begin RE](https://www.begin.re/)
+- [ ] [MalwareUnicorn - Workshops](https://malwareunicorn.org/#/workshops)
+- [ ] [0xZ0F - Course Reverse Engineering](https://github.com/0xZ0F/Z0FCourse_ReverseEngineering)
 
 
 ## Miscellaneous

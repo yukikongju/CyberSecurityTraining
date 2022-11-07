@@ -1,5 +1,10 @@
 # CyberSecurity Books 
 
+**Assembly**
+
+- [ ] [Reverse Engineering for Everyone - 0xinfection](https://0xinfection.github.io/reversing/)
+
+
 **Penetration Testing**
 
 - [ ] Penetration Testing - A Hands-on Introduction to Hacking by Georgi Weidman
