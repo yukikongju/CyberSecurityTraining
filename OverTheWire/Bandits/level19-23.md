@@ -141,7 +141,7 @@ Flag: `QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G`
 
 %% ---------------------------------------------------------
 
-### Level 23 -> Level 24
+### Level 23 -> Level 24 (CHECKK!! why no permission)
 
 
 Goal: 
@@ -226,7 +226,13 @@ drwxrwx-wx 14 root     bandit24 4096 Nov  2 04:20 foo
 Create script: bandit24_pass.sh
 
 #!/bin/bash
-cat /etc/bandit_pass/bandit24 > /tmp/tmp.SGjvD5tLNH/password
+
+myname="bandit24"
+mytarget=$(echo I am user $myname | md5sum | cut -d ' ' -f 1)
+mytarget="/tmp/tmp.Ri4NfuSNJy"
+
+echo "Copying passwordfile /etc/bandit_pass/$myname to $mytarget/password"
+cat /etc/bandit_pass/bandit24 > $mytarget/password
 
 ```
 

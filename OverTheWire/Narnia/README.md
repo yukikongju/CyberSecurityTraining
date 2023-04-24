@@ -18,4 +18,6 @@
 
 - [Narnia writeups](https://axcheron.github.io/writeups/otw/narnia/)
 - [Narnia Writeup - CTF N00b](https://www.youtube.com/watch?v=GhEBq8TjUdA&list=PLNzChOyivDbhXXVUR70qZP86aYumq-p7b)
+- [Shell Code]
+- [x86 reference - Felix CLoutier](https://www.felixcloutier.com/x86/)
 
