@@ -85,14 +85,14 @@
 - Introduction to Web Hacking
     * [X] Walking an Application (2023-04-29)
     * [X] Content Discovery (2023-04-29)
-    * Subdomain Enumeration
-    * Authentication Bypass
-    * IDOR
-    * File Inclusion
-    * SSRF
-    * Cross-site Scripting
-    * Command Injection
-    * SQL Injection
+    * [X] Subdomain Enumeration (2023-04-29)
+    * [X] Authentication Bypass (2023-04-30)
+    * [X] IDOR (2023-04-30)
+    * [ ] File Inclusion
+    * [X] SSRF (2023-04-30)
+    * [ ] Cross-site Scripting
+    * [X] Command Injection (2023-05-06)
+    * [X] SQL Injection (2023-05-06)
 - Burp Suite
     * Basics
     * Repeater
