@@ -95,10 +95,10 @@
     * [X] SQL Injection (2023-05-06)
 - Burp Suite
     * [X] Basics (2023-05-07)
-    * Repeater
-    * Intruder
-    * Other Modules
-    * Extender
+    * [X] Repeater (2023-05-21)
+    * [ ] Intruder
+    * [X] Other Modules (2023-05-24)
+    * [X] Extender (2023-05-24)
 - Web Hacking Fundamentals
     * How websites work
     * HTTP in detail
