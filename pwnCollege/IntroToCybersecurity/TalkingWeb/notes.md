@@ -1,3 +1,10 @@
+# Prereqs
+
+```
+> cd /challenge
+> ./run
+```
+
 # Level 1/2/3 - Open port and sending HTTP request: curl, nc, python
 
 ```
@@ -73,6 +80,52 @@
 
 # Level 31/32/33 - Follow an HTTP redirect from HTTP response
 
+```
+> curl -L localhost
+> echo -e "GET /a5b1a291bdf4f5eb5dd09256401da736 HTTP/1.1\r\nHost: 127.0.0.1\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
+> python -c "import requests; print(requests.get('http://127.0.0.1:80').text)"
+```
 
 # Level 34/35/36 - Include Cookie in HTTP request
+
+```
+CURL:
+> curl localhost -b "cookie=<COOKIE>"
+
+NC:
+> echo -e "GET / HTTP/1.1\r\nHost: 127.0.0.1\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
+cookie=970e33044ab580217540ae7f287b3798
+> echo -e "GET / HTTP/1.1\r\nHost: 127.0.0.1\r\nCookie: cookie=970e33044ab580217540ae7f287b3798\r\n" | nc 127.0.0.1 80
+
+Python: see script
+```
+
+# Level 37/38/39 - Stateful HTTP response: using multiples cookies
+
+Pour curl:
+
+```{sh}
+# First request to get initial cookie
+> curl -c cookies.txt http://127.0.0.1:80
+> curl -b cookies.txt http://127.0.0.1:80 -c cookies.txt
+> curl -b cookies.txt http://127.0.0.1:80 -c cookies.txt
+> curl -b cookies.txt http://127.0.0.1:80 -c cookies.txt
+```
+
+Pour nc: [ TODO ]
+
+```{sh}
+> echo -e "GET / HTTP/1.1\r\nHost: 127.0.0.1\r\n\Connection: close\r\n\r\n" | nc 127.0.0.1 80
+session=eyJzdGF0ZSI6MX0.ZWi35w.D8RM636k9oIGywypN
+> echo -e "GET / HTTP/1.1\r\nHost: 127.0.0.1\r\n\Cookie: session=eyJzdGF0ZSI6MX0.ZWi35w.D8RM636k9oIGywypN\r\nConnection: close\r\n\r\n" | nc 127.0.0.1 80
+eyJzdGF0ZSI6MX0.ZWi5BA.8_OyFK-smU4MHfAX8
+
+
+> echo -e "GET / HTTP/1.1\r\nHost: 127.0.0.1\r\n\Cookie: session=eyJzdGF0ZSI6MX0.ZWi4IQ.oBUTaIFfIBFtZUGB4\r\n" | nc 127.0.0.1 80
+session=eyJzdGF0ZSI6MX0.ZWi4ag.OoWBnBjK8ro1hRbGwG0WH0dGHU0
+> echo -e "GET / HTTP/1.1\r\nHost: 127.0.0.1\r\n\Cookie: session=eyJzdGF0ZSI6MX0.ZWi4ag.OoWBnBjK8ro1hRbGwG0WH0dGHU0\r\n" | nc 127.0.0.1 80
+session=eyJzdGF0ZSI6MX0.ZWi4mQ.A9xU_Kz_59bvX1U2w
+> echo -e "GET / HTTP/1.1\r\nHost: 127.0.0.1\r\n\Cookie: session=eyJzdGF0ZSI6MX0.ZWi4mQ.A9xU_Kz_59bvX1U2w\r\n" | nc 127.0.0.1 80
+```
+
 
