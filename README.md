@@ -18,6 +18,7 @@ in `papers/`
 **Tools**
 - [ ] [Pen Testing Tools Ressources](https://github.com/sundowndev/hacker-roadmap)
 - [ ] [Unix Binaries Exploits](https://gtfobins.github.io/)
+- [ ] [John Hammond - Security Ressources](https://github.com/JohnHammond/security-resources/tree/68355ef4dafb9a839b11b31f8e7c4d2a7e3575a2)
 
 
 **Career Paths**
