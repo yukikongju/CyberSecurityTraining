@@ -13,3 +13,11 @@
 >>> ssh -i pwncollege hacker@dojo.pwn.college
 
 ```
+
+## Writeups
+
+- [Cipher731 - Writeups](https://github.com/Cipher731/pwn_college_writeup/tree/main)
+- [LinHuiqing - Writeups](https://github.com/LinHuiqing/pwn-college-labs)
+- [sahilwep - Writeups](https://github.com/sahilwep/Dojo-pwn-college/tree/main)
+
+
