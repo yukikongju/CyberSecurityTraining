@@ -17,6 +17,7 @@ in `papers/`
 
 **Tools**
 - [ ] [Pen Testing Tools Ressources](https://github.com/sundowndev/hacker-roadmap)
+- [ ] [Unix Binaries Exploits](https://gtfobins.github.io/)
 
 
 **Career Paths**
@@ -58,5 +59,6 @@ in `papers/`
 - [ ] [How HTTPS Works](https://howhttps.works/)
 - [X] [Words of motivation by s0md3v](https://github.com/s0md3v/be-a-hacker#i-think-i-know-nothing-i-have-no-skills)
 - [ ] [Reddit - Currated Cybersecurity Training](https://www.reddit.com/r/cybersecurity/comments/j7ji0n/another_massive_curated_resource_free/)
+- [ ] [CTF writeups](https://www.ctfwriteup.com)
 
 

