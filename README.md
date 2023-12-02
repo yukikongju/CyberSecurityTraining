@@ -26,6 +26,7 @@ in `papers/`
 
 **Learning Paths**
 - [ ] [Open Security Training - Learning Paths](https://opensecuritytraining.info/Learning%20Paths.html)
+- [ ] [Reddit Post](https://www.reddit.com/r/hacking/comments/a3oicn/how_to_start_hacking_the_ultimate_two_path_guide/)
 
 
 **CTF**
@@ -41,7 +42,8 @@ in `papers/`
 - [Pwnable.kr](http://pwnable.kr/play.php)
 
 **Learning**
-- [pwn.college](https://pwn.college/)
+- [ ] [pwn.college](https://pwn.college/)
+- [ ] [Exploit Education](https://exploit.education/)
 - [X] [PicoCTF Learning](https://picoctf.org/resources.html)
 - [PicoCTF Primer](https://primer.picoctf.org/)
 - [Roppers Academy](https://www.roppers.org/collections)
@@ -53,6 +55,7 @@ in `papers/`
 - [ ] [Begin RE](https://www.begin.re/)
 - [ ] [MalwareUnicorn - Workshops](https://malwareunicorn.org/#/workshops)
 - [ ] [0xZ0F - Course Reverse Engineering](https://github.com/0xZ0F/Z0FCourse_ReverseEngineering)
+- [ ] [dayzerosec](https://dayzerosec.com/blog/2021/02/02/getting-started.html)
 
 
 ## Miscellaneous

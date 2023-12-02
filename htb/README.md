@@ -84,5 +84,6 @@ out `data-ciphers` and `fallback` line inside `*.ovpn` as mentionned [here](http
 
 - [Vatto Writeups](https://vato.cc/)
 - [nop Writeups](https://guidedhacking.com/threads/how-to-learn-penetration-testing.19788/)
+- [0xdf Writeups](https://0xdf.gitlab.io/)
 
 
