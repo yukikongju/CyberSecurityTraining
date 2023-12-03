@@ -19,5 +19,9 @@
 - [Cipher731 - Writeups](https://github.com/Cipher731/pwn_college_writeup/tree/main)
 - [LinHuiqing - Writeups](https://github.com/LinHuiqing/pwn-college-labs)
 - [sahilwep - Writeups](https://github.com/sahilwep/Dojo-pwn-college/tree/main)
+- [Writeups embryoio](https://github.com/Anon0nyx/pwn_college_notebook/tree/master/embryoio)
 
+## Ressources
+
+- [NimishMishra - Other Writeups](https://github.com/NimishMishra/exploit-dev)
 

@@ -1,3 +1,12 @@
+# Challenges
+
+- run program
+- run program with stdin
+- run program from file input
+- run program from arguments
+- run program from empty environment
+- run program with stdout redirection
+
 # Level 1/2/3/4/5 - 
 
 - Execute command they ask, then rerun `/challenge/embryo_{NUM}`
@@ -44,10 +53,11 @@ For 9:
 > bash s.sh < /tmp/ejnuee
 ```
 
-# Level 15/16/17/18/19/20 - Executing command in ipython
+# Level 15/16/17/18/19/20/21 - Executing command in ipython
 
 - if they ask for stdin, execute normally and input stdin manually afterwards
 - if they ask for arguments, write them afterwards
+- if the check for environment variable, `export <var>=<value>`
 
 ```{ipython}
 hacker@program-interaction-level-15:/challenge$ ipython
@@ -62,13 +72,25 @@ In [2]: subprocess.run(["/challenge/embryoio_level17", "jivlxzhtri"])
 
 -- stdout
 In [3]: subprocess.run(["/challenge/embryoio_level20"], stdout=open('/tmp/nvxsmu', 'w'), text=True)
+
+-- empty environment
+subprocess.run(['env', '-i', './embryoio_level28'])
+
+-- Executing bash script in ipython
+In [2]: subprocess.Popen(["env", "-i", "./embryoio_level21"])
+
 ```
 
 Writeups: https://hackmd.io/@iru7NsehRf-RHH8iUuJSPw/ryN9KhNVa
+Writeups: https://github.com/Anon0nyx/pwn_college_notebook/tree/master/embryoio
 
+# Level 22 to 28 - Same, but with python
 
-# Level 21 - Executing bash script in ipython
+We need to create a python script and run the previous command `python /tmp/t.py`
 
+# Level 29 - Run Binary with C
 
-
-
+```{sh}
+> gcc /tmp/t.c -o ~/a.out
+> ~/a.out
+```
