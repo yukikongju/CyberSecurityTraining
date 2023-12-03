@@ -88,9 +88,14 @@ Writeups: https://github.com/Anon0nyx/pwn_college_notebook/tree/master/embryoio
 
 We need to create a python script and run the previous command `python /tmp/t.py`
 
-# Level 29 - Run Binary with C
+# Level 29 to 35 - Run Binary with C
 
 ```{sh}
 > gcc /tmp/t.c -o ~/a.out
 > ~/a.out
 ```
+
+# Level 36 - 
+
+
+
