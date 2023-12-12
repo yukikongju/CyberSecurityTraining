@@ -95,7 +95,15 @@ We need to create a python script and run the previous command `python /tmp/t.py
 > ~/a.out
 ```
 
-# Level 36 - 
+# Level 36/37/38/39 - Pipe
 
+```
+> /usr/bin/bash
+> ./embryoio_level36 | cat
+> ./embryoio_level37 | grep '.'
+> ./embryoio_level38 | sed 's/.*/&/'
+> ./embryoio_level39 | rev | rev
+```
 
+# Level 48 -
 
