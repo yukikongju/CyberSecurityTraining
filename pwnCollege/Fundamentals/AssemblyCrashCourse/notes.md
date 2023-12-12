@@ -41,4 +41,17 @@ as -o asm.o asm.s && objcopy -O binary --only-section=.text asm.o asm.bin && cat
 
 # Level 3/4/5 - Operations: add, imul, div
 
+# Level 6/7/8 - Implementing faster modulo for power of 2^n using lower n bits
+
+- modulo is being stored in `rdx` register; quotient in `rax`
+- 256 is 2 power of 8, so we load it using `mov al`; 65536 is 2 power of 16 so 
+  we load it using `ax`
+
+# Level 9 - Left and right shift with shl, shr
+
+
+# Level 10/11 - Bitwise Logic
+
+- to clear a register, use `xor <reg>, <reg>`
+
 
