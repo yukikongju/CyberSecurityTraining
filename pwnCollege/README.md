@@ -24,4 +24,5 @@
 ## Ressources
 
 - [NimishMishra - Other Writeups](https://github.com/NimishMishra/exploit-dev)
+- [Ike - The System Hacking Handbook](https://ike.mahaloz.re/)
 
