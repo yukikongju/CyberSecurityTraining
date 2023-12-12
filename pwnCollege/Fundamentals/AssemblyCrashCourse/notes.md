@@ -75,7 +75,21 @@ Here is the breakdown of the names of memory sizes:
 ```
 
 
-# Level 17 - Little Endian
+# Level 17/18 - Little Endian
+
+- use a temporary register to copy between addressing registers
+- loading consecutive registers with offset
+
+# Level 19/20/21 - Stack
+
+- swapping registers using the stack
+- accessing the stack pointer with `rsp`
+
+- [coursehero - writeups](https://www.coursehero.com/file/190516394/Assembly-Crash-Course-WriteUppdf/)
+
+# Level 22/23 - Control Flow
+
+- Absolute jumps vs relative jumps
 
 
 as -o asm.o asm.s && objcopy -O binary --only-section=.text asm.o asm.bin && cat ./asm.bin | /challenge/run

@@ -40,6 +40,10 @@ in `papers/`
 - [Smash the Stack](http://www.smashthestack.org/)
 - [Exploit-Exercices Mirror](https://www.vulnhub.com/series/exploit-exercises,11/)
 - [Pwnable.kr](http://pwnable.kr/play.php)
+- [Explot.Education](https://exploit.education/)
+- [ROP Emporium](https://ropemporium.com/)
+- [challenges.re](https://challenges.re/)
+- [crackmes.one](https://crackmes.one/)
 
 **Learning**
 - [ ] [pwn.college](https://pwn.college/)
