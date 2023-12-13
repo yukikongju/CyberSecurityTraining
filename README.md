@@ -60,6 +60,12 @@ in `papers/`
 - [ ] [MalwareUnicorn - Workshops](https://malwareunicorn.org/#/workshops)
 - [ ] [0xZ0F - Course Reverse Engineering](https://github.com/0xZ0F/Z0FCourse_ReverseEngineering)
 - [ ] [dayzerosec](https://dayzerosec.com/blog/2021/02/02/getting-started.html)
+- [ ] [Cracking Lessons](https://crackinglessons.com/category/challenges/)
+
+**Writeups**
+
+- [Maple Bacon](https://maplebacon.org/blog/)
+
 
 
 ## Miscellaneous
@@ -68,5 +74,7 @@ in `papers/`
 - [X] [Words of motivation by s0md3v](https://github.com/s0md3v/be-a-hacker#i-think-i-know-nothing-i-have-no-skills)
 - [ ] [Reddit - Currated Cybersecurity Training](https://www.reddit.com/r/cybersecurity/comments/j7ji0n/another_massive_curated_resource_free/)
 - [ ] [CTF writeups](https://www.ctfwriteup.com)
+- [ ] [Adamkadaban - A Masters Guide to Learning Security](https://github.com/Adamkadaban/CTFs)
+- [ ] [Project64 Debugger](https://hack64.net/docs/pj64d/)
 
 
