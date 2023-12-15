@@ -174,6 +174,13 @@ A valid solution will use the following at least once:
 
 - goal: reduce the number of compares using 'switch' statements
 
+# Level 27/28 - Compute Averages
+
+- using for loop
+- using while loop
+
+
+# Level 29 - 
 
 as -o asm.o asm.s && objcopy -O binary --only-section=.text asm.o asm.bin && cat ./asm.bin | /challenge/run
 
