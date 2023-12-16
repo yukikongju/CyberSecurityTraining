@@ -1,5 +1,9 @@
 # Level 1 - Exit program
 
+- arguments: `rdi`, `rsi`, `rdx`
+- `syscall` type has to be loaded in rax
+
+
 ```{md}
 Usage: `/challenge/run <path_to_web_server>`
 
@@ -31,4 +35,12 @@ $ /challenge/run ./server
 
 
 # Level 3 - Program that binds socket
+
+
+
+## Ressources
+
+- [syscall](https://x64.syscall.sh/)
+- [Writeups](https://tech.c01dkit.com/pwn-college-cse365-spring2023/#building-a-web-server-writeups)
+
 
