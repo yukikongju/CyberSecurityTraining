@@ -38,6 +38,10 @@ $ /challenge/run ./server
 
 
 
+as -o server.o server.s && ld server.o -o server 
+
+
+
 ## Ressources
 
 - [syscall](https://x64.syscall.sh/)

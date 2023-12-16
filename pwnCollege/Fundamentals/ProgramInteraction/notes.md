@@ -105,5 +105,38 @@ We need to create a python script and run the previous command `python /tmp/t.py
 > ./embryoio_level39 | rev | rev
 ```
 
-# Level 48 -
+# Level 40/41 - stdin
+
+
+```{sh}
+> cat | ./embryoio_level40
+```
+
+# Level 42/43/44/45 - shellscript
+
+- Execute bash script: `bash t.sh`
+
+```{sh}
+> /challenge/embryoio_level42 | cat
+> /challenge/embryoio_level43 | grep '.'
+> /challenge/embryoio_level44 | sed 's/.*/&/'
+> /challenge/embryoio_level45 | rev
+
+```
+
+# Level 46 - shellscript with input
+
+- Execute bash script: `bash t.sh`
+- add input afterwards
+
+```{sh}
+> cat | /challenge/embryoio_level46 
+> rev | /challenge/embryoio_level47 
+```
+
+# Level 48 - ipython
+
+
+
+- [writeups](https://www.youtube.com/watch?v=r7IqlDr1tWw&list=PLuUFRHxVK7sTW8DY0f2cZPhGvgqgDsZ1A&index=3)
 
